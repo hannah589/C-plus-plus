@@ -142,7 +142,7 @@ void test11()
     }
 }
 
-//Ternary Operator: condition ? true : false;
+//Ternary Operator: Syntax: condition ? true : false;
 void test12()
 {
     int a = 10, b = 20;
