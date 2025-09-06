@@ -167,8 +167,8 @@ switch (expression) {
     
 void test13()
 {
-    int num;
     cout << "Enter Number(1-4): ";
+    int num;
     cin >> num;
 
     switch (num)
@@ -220,7 +220,7 @@ void test15()
 void test16()
 {
     string password = "s123";
-    string guess;
+    string guess = "";
 
     cout << "Enter password: ";
     cin >> guess;
@@ -246,7 +246,7 @@ void test17() {
     cin >> guess;
 
     if (guess == password) {
-        cout << "Acess Granted" << endl;
+        cout << "Access Granted" << endl;
     }
     else {
         cout << "Access Denied" << endl;
