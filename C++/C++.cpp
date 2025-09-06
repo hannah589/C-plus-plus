@@ -31,7 +31,7 @@ void test04()
     int val;
     cin >> val;
 
-    if ((val >= 1) && (val <= 6)) //boundary case: 0,1,6,7
+    if ((val >= 1) && (val <= 6)) //boundary case: 0,1,6,7 
         cout << "Valid dice roll" << endl;
     else
         cout << "Impossible dice roll" << endl;
@@ -100,7 +100,7 @@ void test09()
 }
 
 
-// single statment can remove code block {}
+// Single statment can remove {}
 void test10()
 {
     int x;
@@ -185,7 +185,7 @@ void test13()
     }
 }
 
-//For Loop(){intialize; condition; count by}
+//For Loop(intialize; condition; count by){repeat code}
 void test14()
 {
     for (int i = 1; i <= 5; i++)
